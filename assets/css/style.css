@@ -1,0 +1,75 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+html {
+  user-select: none;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --first-color: hsl(0, 0%, 100%);
+  --second-color: hsl(212, 45%, 89%);
+  --third-color: hsl(220, 15%, 55%);
+  --fourth-color: hsl(218, 44%, 22%);
+  --main-font: "Outfit", sans-serif;
+  --fw-1: 400;
+  --fw-2: 700;
+}
+
+body {
+  width: auto;
+  height: 100vh;
+  font-family: var(--main-font) !important;
+  text-align: center !important;
+  background-color: var(--second-color) !important;
+}
+
+/* Main Content */
+
+.card {
+  border: transparent !important;
+  border-radius: 18px !important;
+}
+
+.card-img-top {
+  padding: 15px;
+  border-radius: 25px !important;
+}
+
+.card h5 {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-size: 22px !important;
+  font-weight: var(--fw-2);
+}
+
+.card p {
+  font-size: 15px !important;
+  font-weight: var(--fw-1);
+  color: var(--third-color);
+}
+
+/* Main Content End */
+
+/* Footer */
+
+.attribution {
+    font-size: 16px !important;
+}
+
+@media only screen and (min-width: 360px) {
+  .attribution {
+    font-size: 12px;
+    margin: -40px 0 0;
+  }
+}
+
+/* Footer End */
